@@ -74,16 +74,20 @@ class _HomePageState extends State<HomePage> {
                                           fontSize: 20,
                                         ),
                                       ),
-                                      Text(
-                                        '$address',
-                                        style: TextStyle(
-                                          color: Colors.grey[500],
-                                          fontSize: 15,
-                                        ),
-                                      ),
-                                      Icon(                // Add this
-                                        Icons.arrow_drop_down,  // Add this
-                                        color: Colors.blue,   // Add this
+                                      Row(
+                                        children: [
+                                          Text(
+                                            '$address',
+                                            style: TextStyle(
+                                              color: Colors.grey[500],
+                                              fontSize: 15,
+                                            ),
+                                          ),
+                                          Icon(                // Add this
+                                            Icons.arrow_drop_down,  // Add this
+                                            color: Colors.blue,   // Add this
+                                          ),
+                                        ],
                                       ),
                                     ],
                                   ),
